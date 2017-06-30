@@ -16,7 +16,7 @@ Execução da aplicação (matrix.c):
 1. Definir nas constantes dentro do fonte:
   1.1. O tamanho da matriz TAM (linha 15).
   1.2. O número de threads numCores (linha 21). Leia as restrições aplicadas as limitações quanto a estas entradas.
-2. Compilando o fonte: gcc -lpthread -w -O2 -o matrix matrix.c
+2. Compilando o fonte: gcc -pthread -w -O2 -o matrix matrix.c
 3. Executando o fonte: ./matrix
 4. Dica: Descomente a linha 122 para visualização dos dados da aplicação.
 
